@@ -1,0 +1,1008 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D325CFE11FE13A075C835E922BE1017 /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDCEBCD015BF403638D02035DF14F07 /* SVRadialGradientLayer.m */; };
+		1F4A13FD6675FCFCD9C19DF350348899 /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB7D45B813C6778DAA781458CF26610 /* SVProgressAnimatedView.m */; };
+		2000FA808FCCE0A468530ADA387F93E2 /* Pods-RyanairApp-RyanairAppUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EE9D8D9CFADAD69F7B47CAE00ECD651 /* Pods-RyanairApp-RyanairAppUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DC032894868226AE220360BADB2C237 /* SVProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFCAF26AC503271808690ACB26F7698 /* SVProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52BCC3B2F8AE7F59556925DEC603C634 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7033FAAB808FF1BDA88AEAD79132AF93 /* SVIndefiniteAnimatedView.m */; };
+		53BECA6AA55F80D63F104475EE6524CA /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FEFE490E4A06D19E868B2B9014BB8BF /* QuartzCore.framework */; };
+		5BFFA596E92509245540CBA3C241E6C2 /* Pods-RyanairApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A9DEE6C601C9D10AD9EEB8C65C8E4D8 /* Pods-RyanairApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DE0FE0134DC6C98D5CE1EDDA4D5A0A5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
+		69ADAC14DC67305896827624465AD6D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
+		6D1E33469FB8FBE812956B0076A7B28F /* SVRadialGradientLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = EB90B2FF0DB98436F5AF509D153D5A3E /* SVRadialGradientLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		798FA71F8CAE44D05016FFF767100375 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
+		89DF2D9C5EFB02A72EC0CE2138B77F35 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC19AC0F98A3A3D20E30FDB51F37C9C /* SVProgressHUD.m */; };
+		943B0A1B436BAF4D419574466EF70FB3 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0CBB7AAA2019CE0BCA60BDD3D28426C7 /* SVProgressHUD.bundle */; };
+		C15B3F89E6F83DC9CCB14903FC5D80C5 /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = EF4CB59AA510A3604E480EBDFAEBB157 /* SVProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4318E8336F884479F1428D4C56631D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
+		CDE42085E903411E64B7D20BDDBCA9AD /* Pods-RyanairApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2417BE55FD600DE464D90F0A9D22067 /* Pods-RyanairApp-dummy.m */; };
+		E70EBA16751054574A227A6432CCE4B0 /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5932FA360F3E7767848DD4884529F6 /* SVIndefiniteAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F403ECD1B94FCCE04B6E92B94B570917 /* Pods-RyanairAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD274DAE3E097FABA6630FA74C94BAD /* Pods-RyanairAppTests-dummy.m */; };
+		F41EE92CD310B26662B51F2DC4915BC1 /* Pods-RyanairAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB0CADE404B3FFE239DD71D6678C4A9 /* Pods-RyanairAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F44F56E028AB7788F105B3907A000715 /* Pods-RyanairApp-RyanairAppUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6773E1F696D6F643C49E35B1F2829F38 /* Pods-RyanairApp-RyanairAppUITests-dummy.m */; };
+		F77280E74EB91678AA294E66DD6070E2 /* SVProgressAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = 261FD2BC14513CCC5C040943AD6030E6 /* SVProgressAnimatedView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFD43D91BF1FA4ADF714D56E7A10B2A8 /* SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF967441BB9ED1CB33E7054CF37B00C /* SVProgressHUD-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F741296C03F06D5953C3D58C5465C90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
+		};
+		B19376D9BFCB06CF0027B41C27CE2F75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF73B2BF1481CBD6BC1DD8F64CF1EDF2;
+			remoteInfo = "Pods-RyanairApp";
+		};
+		F0AB3DACE17C14003B0BB9E4BEDF68CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C8D67D8B72D6BA42CCEDB648537A340;
+			remoteInfo = SVProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CBB7AAA2019CE0BCA60BDD3D28426C7 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		170AC2C7B8C83EBAA92A245D02EB658D /* SVProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SVProgressHUD-Info.plist"; sourceTree = "<group>"; };
+		1FDFE0541D81FF02C12EC3079EA2F0C5 /* Pods-RyanairApp-RyanairAppUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RyanairApp-RyanairAppUITests"; path = Pods_RyanairApp_RyanairAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2449567486B73504DC16C41FFDF44741 /* Pods-RyanairAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RyanairAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		261FD2BC14513CCC5C040943AD6030E6 /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressAnimatedView.h; path = SVProgressHUD/SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		2FEFE490E4A06D19E868B2B9014BB8BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		31C25B5E4BEFEF8776C7DE1C3C1EA7B2 /* SVProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
+		31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A5CF5884452FF49A02A1397EB8A1179 /* Pods-RyanairApp-RyanairAppUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RyanairApp-RyanairAppUITests.modulemap"; sourceTree = "<group>"; };
+		3EE9D8D9CFADAD69F7B47CAE00ECD651 /* Pods-RyanairApp-RyanairAppUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RyanairApp-RyanairAppUITests-umbrella.h"; sourceTree = "<group>"; };
+		4451234A696E7E426A96CA59853B74EC /* Pods-RyanairApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RyanairApp.modulemap"; sourceTree = "<group>"; };
+		46DEB432F2DA43C8804CDD17F8D71138 /* Pods-RyanairApp-RyanairAppUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RyanairApp-RyanairAppUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4709B96B2168631CAE54397DD7A966E4 /* SVProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SVProgressHUD.modulemap; sourceTree = "<group>"; };
+		4B0CAEBDA9959BE834C9647EF4369894 /* Pods-RyanairApp-RyanairAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RyanairApp-RyanairAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4E0A430F2696A7CF8EED9F70B0191F11 /* Pods-RyanairAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RyanairAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		52F56CCF7BED825E9E57C7D45F46A40C /* Pods-RyanairApp */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RyanairApp"; path = Pods_RyanairApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5900010E2313DDB91EA3CD23F11B77D5 /* Pods-RyanairApp-RyanairAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RyanairApp-RyanairAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5AB0CADE404B3FFE239DD71D6678C4A9 /* Pods-RyanairAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RyanairAppTests-umbrella.h"; sourceTree = "<group>"; };
+		61C2583905AA35EFB3E6F4687B2905C1 /* Pods-RyanairApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RyanairApp-frameworks.sh"; sourceTree = "<group>"; };
+		6773E1F696D6F643C49E35B1F2829F38 /* Pods-RyanairApp-RyanairAppUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RyanairApp-RyanairAppUITests-dummy.m"; sourceTree = "<group>"; };
+		6B035C99F23DE73926CEE0421727FFF3 /* Pods-RyanairApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RyanairApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7033FAAB808FF1BDA88AEAD79132AF93 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		80A99397D4D433FB0B65CC761B52B279 /* Pods-RyanairAppTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RyanairAppTests"; path = Pods_RyanairAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AD52963AB04C604ED2B91B969CE3B8 /* Pods-RyanairAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RyanairAppTests.modulemap"; sourceTree = "<group>"; };
+		84BE149D5ACCED3425D64CA55E6D1B59 /* Pods-RyanairApp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RyanairApp-Info.plist"; sourceTree = "<group>"; };
+		8A9DEE6C601C9D10AD9EEB8C65C8E4D8 /* Pods-RyanairApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RyanairApp-umbrella.h"; sourceTree = "<group>"; };
+		8EC19AC0F98A3A3D20E30FDB51F37C9C /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		9AF967441BB9ED1CB33E7054CF37B00C /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A6A9A259E9409C4DABD675C6A84264C8 /* Pods-RyanairApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RyanairApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		A90DE5CB6902FF09DA0F8BC1A73B4916 /* Pods-RyanairApp-RyanairAppUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RyanairApp-RyanairAppUITests-frameworks.sh"; sourceTree = "<group>"; };
+		B97748F00FCD2D1F7712B8263B6F8822 /* Pods-RyanairAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RyanairAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BFD274DAE3E097FABA6630FA74C94BAD /* Pods-RyanairAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RyanairAppTests-dummy.m"; sourceTree = "<group>"; };
+		C6E4492123ED7DE2CBC99150EEC7AAB3 /* Pods-RyanairAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RyanairAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C800E52EA872DCB5D5AD9142B95AB768 /* SVProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.release.xcconfig; sourceTree = "<group>"; };
+		CDC14B1843451473B08841EADCBFE118 /* Pods-RyanairApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RyanairApp.release.xcconfig"; sourceTree = "<group>"; };
+		D2417BE55FD600DE464D90F0A9D22067 /* Pods-RyanairApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RyanairApp-dummy.m"; sourceTree = "<group>"; };
+		DBFCAF26AC503271808690ACB26F7698 /* SVProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		DD9DCCF93B18DF5D112B03650FA82DB8 /* Pods-RyanairAppTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RyanairAppTests-Info.plist"; sourceTree = "<group>"; };
+		E3C1BC2E79BBB16958C9E57662D41DA9 /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SVProgressHUD; path = SVProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB90B2FF0DB98436F5AF509D153D5A3E /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		EBEF91B75F30CB5D327DA2FA7FAB6A02 /* Pods-RyanairApp-RyanairAppUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RyanairApp-RyanairAppUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EF4CB59AA510A3604E480EBDFAEBB157 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		F6E0581DCFE2ADB50A761E64F99C332F /* Pods-RyanairApp-RyanairAppUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RyanairApp-RyanairAppUITests-Info.plist"; sourceTree = "<group>"; };
+		FA5932FA360F3E7767848DD4884529F6 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		FDB7D45B813C6778DAA781458CF26610 /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		FEDCEBCD015BF403638D02035DF14F07 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		FEDD8CA421FFC3388897E8DECDC3253F /* Pods-RyanairApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RyanairApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56705282ECC1A0B3331C74C9B0357147 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69ADAC14DC67305896827624465AD6D6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BDA2ED42DCBEA021897542045B59C77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4318E8336F884479F1428D4C56631D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A89F8DC15B477AC4B2E459B7502D65BB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DE0FE0134DC6C98D5CE1EDDA4D5A0A5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E389FF082B036E756B0679583C1BE62E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				798FA71F8CAE44D05016FFF767100375 /* Foundation.framework in Frameworks */,
+				53BECA6AA55F80D63F104475EE6524CA /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D325A42620E7427FB70FB046C7B7B240 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2224F2A9FC55133AC8EC77539EF3EE73 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4709B96B2168631CAE54397DD7A966E4 /* SVProgressHUD.modulemap */,
+				9AF967441BB9ED1CB33E7054CF37B00C /* SVProgressHUD-dummy.m */,
+				170AC2C7B8C83EBAA92A245D02EB658D /* SVProgressHUD-Info.plist */,
+				E3C1BC2E79BBB16958C9E57662D41DA9 /* SVProgressHUD-prefix.pch */,
+				DBFCAF26AC503271808690ACB26F7698 /* SVProgressHUD-umbrella.h */,
+				31C25B5E4BEFEF8776C7DE1C3C1EA7B2 /* SVProgressHUD.debug.xcconfig */,
+				C800E52EA872DCB5D5AD9142B95AB768 /* SVProgressHUD.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		786CD495A37A3BCDC820C43E917BAFCD /* Pods-RyanairApp */ = {
+			isa = PBXGroup;
+			children = (
+				4451234A696E7E426A96CA59853B74EC /* Pods-RyanairApp.modulemap */,
+				FEDD8CA421FFC3388897E8DECDC3253F /* Pods-RyanairApp-acknowledgements.markdown */,
+				A6A9A259E9409C4DABD675C6A84264C8 /* Pods-RyanairApp-acknowledgements.plist */,
+				D2417BE55FD600DE464D90F0A9D22067 /* Pods-RyanairApp-dummy.m */,
+				61C2583905AA35EFB3E6F4687B2905C1 /* Pods-RyanairApp-frameworks.sh */,
+				84BE149D5ACCED3425D64CA55E6D1B59 /* Pods-RyanairApp-Info.plist */,
+				8A9DEE6C601C9D10AD9EEB8C65C8E4D8 /* Pods-RyanairApp-umbrella.h */,
+				6B035C99F23DE73926CEE0421727FFF3 /* Pods-RyanairApp.debug.xcconfig */,
+				CDC14B1843451473B08841EADCBFE118 /* Pods-RyanairApp.release.xcconfig */,
+			);
+			name = "Pods-RyanairApp";
+			path = "Target Support Files/Pods-RyanairApp";
+			sourceTree = "<group>";
+		};
+		83A7141DE85DD169D35887906844BCF3 /* Pods-RyanairAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				80AD52963AB04C604ED2B91B969CE3B8 /* Pods-RyanairAppTests.modulemap */,
+				B97748F00FCD2D1F7712B8263B6F8822 /* Pods-RyanairAppTests-acknowledgements.markdown */,
+				2449567486B73504DC16C41FFDF44741 /* Pods-RyanairAppTests-acknowledgements.plist */,
+				BFD274DAE3E097FABA6630FA74C94BAD /* Pods-RyanairAppTests-dummy.m */,
+				DD9DCCF93B18DF5D112B03650FA82DB8 /* Pods-RyanairAppTests-Info.plist */,
+				5AB0CADE404B3FFE239DD71D6678C4A9 /* Pods-RyanairAppTests-umbrella.h */,
+				C6E4492123ED7DE2CBC99150EEC7AAB3 /* Pods-RyanairAppTests.debug.xcconfig */,
+				4E0A430F2696A7CF8EED9F70B0191F11 /* Pods-RyanairAppTests.release.xcconfig */,
+			);
+			name = "Pods-RyanairAppTests";
+			path = "Target Support Files/Pods-RyanairAppTests";
+			sourceTree = "<group>";
+		};
+		99DB5843575FBC0658E84D0037118655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52F56CCF7BED825E9E57C7D45F46A40C /* Pods-RyanairApp */,
+				1FDFE0541D81FF02C12EC3079EA2F0C5 /* Pods-RyanairApp-RyanairAppUITests */,
+				80A99397D4D433FB0B65CC761B52B279 /* Pods-RyanairAppTests */,
+				E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1FC91EE57D117D1692B9FE4721A7580 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0CBB7AAA2019CE0BCA60BDD3D28426C7 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BEE59E47A2712C6181D8BC79BAD8442E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				786CD495A37A3BCDC820C43E917BAFCD /* Pods-RyanairApp */,
+				E2B3B8097AC5A6496468B6985F69E52B /* Pods-RyanairApp-RyanairAppUITests */,
+				83A7141DE85DD169D35887906844BCF3 /* Pods-RyanairAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C6192831BFB6479459CD82FE67BB3EDA /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				FA5932FA360F3E7767848DD4884529F6 /* SVIndefiniteAnimatedView.h */,
+				7033FAAB808FF1BDA88AEAD79132AF93 /* SVIndefiniteAnimatedView.m */,
+				261FD2BC14513CCC5C040943AD6030E6 /* SVProgressAnimatedView.h */,
+				FDB7D45B813C6778DAA781458CF26610 /* SVProgressAnimatedView.m */,
+				EF4CB59AA510A3604E480EBDFAEBB157 /* SVProgressHUD.h */,
+				8EC19AC0F98A3A3D20E30FDB51F37C9C /* SVProgressHUD.m */,
+				EB90B2FF0DB98436F5AF509D153D5A3E /* SVRadialGradientLayer.h */,
+				FEDCEBCD015BF403638D02035DF14F07 /* SVRadialGradientLayer.m */,
+				A1FC91EE57D117D1692B9FE4721A7580 /* Resources */,
+				2224F2A9FC55133AC8EC77539EF3EE73 /* Support Files */,
+			);
+			name = SVProgressHUD;
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				D0F28EFC8C9E325880381D586C3CA919 /* Pods */,
+				99DB5843575FBC0658E84D0037118655 /* Products */,
+				BEE59E47A2712C6181D8BC79BAD8442E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0F28EFC8C9E325880381D586C3CA919 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C6192831BFB6479459CD82FE67BB3EDA /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D325A42620E7427FB70FB046C7B7B240 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */,
+				2FEFE490E4A06D19E868B2B9014BB8BF /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E2B3B8097AC5A6496468B6985F69E52B /* Pods-RyanairApp-RyanairAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3A5CF5884452FF49A02A1397EB8A1179 /* Pods-RyanairApp-RyanairAppUITests.modulemap */,
+				46DEB432F2DA43C8804CDD17F8D71138 /* Pods-RyanairApp-RyanairAppUITests-acknowledgements.markdown */,
+				EBEF91B75F30CB5D327DA2FA7FAB6A02 /* Pods-RyanairApp-RyanairAppUITests-acknowledgements.plist */,
+				6773E1F696D6F643C49E35B1F2829F38 /* Pods-RyanairApp-RyanairAppUITests-dummy.m */,
+				A90DE5CB6902FF09DA0F8BC1A73B4916 /* Pods-RyanairApp-RyanairAppUITests-frameworks.sh */,
+				F6E0581DCFE2ADB50A761E64F99C332F /* Pods-RyanairApp-RyanairAppUITests-Info.plist */,
+				3EE9D8D9CFADAD69F7B47CAE00ECD651 /* Pods-RyanairApp-RyanairAppUITests-umbrella.h */,
+				5900010E2313DDB91EA3CD23F11B77D5 /* Pods-RyanairApp-RyanairAppUITests.debug.xcconfig */,
+				4B0CAEBDA9959BE834C9647EF4369894 /* Pods-RyanairApp-RyanairAppUITests.release.xcconfig */,
+			);
+			name = "Pods-RyanairApp-RyanairAppUITests";
+			path = "Target Support Files/Pods-RyanairApp-RyanairAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4EA43BEC3FB34B00C17A414A4FA59237 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F41EE92CD310B26662B51F2DC4915BC1 /* Pods-RyanairAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B3B44718D60544CCF37AEE5FD6C9F25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BFFA596E92509245540CBA3C241E6C2 /* Pods-RyanairApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6DE9E7B34EB24769860A549107B4F04C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E70EBA16751054574A227A6432CCE4B0 /* SVIndefiniteAnimatedView.h in Headers */,
+				F77280E74EB91678AA294E66DD6070E2 /* SVProgressAnimatedView.h in Headers */,
+				C15B3F89E6F83DC9CCB14903FC5D80C5 /* SVProgressHUD.h in Headers */,
+				4DC032894868226AE220360BADB2C237 /* SVProgressHUD-umbrella.h in Headers */,
+				6D1E33469FB8FBE812956B0076A7B28F /* SVRadialGradientLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B34C080A49155AD8ACC254DFE9F46784 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2000FA808FCCE0A468530ADA387F93E2 /* Pods-RyanairApp-RyanairAppUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 807FEF9D9629A72728B6B83F5CA12C85 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */;
+			buildPhases = (
+				6DE9E7B34EB24769860A549107B4F04C /* Headers */,
+				108B36464ADE4902E2E2C83461767402 /* Sources */,
+				E389FF082B036E756B0679583C1BE62E /* Frameworks */,
+				A4CCC3CC21F770E272C54B18DDDE6DA3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVProgressHUD;
+			productName = SVProgressHUD;
+			productReference = E97D43C46A45EE515A4DA3AF94398441 /* SVProgressHUD */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D77F6DABA38D0B5FB5E0F61312E59E2 /* Pods-RyanairApp-RyanairAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F6157096E36D1CA572CEB346FBACD8B /* Build configuration list for PBXNativeTarget "Pods-RyanairApp-RyanairAppUITests" */;
+			buildPhases = (
+				B34C080A49155AD8ACC254DFE9F46784 /* Headers */,
+				793CACCFF8F8A90855013ABC1D8F5935 /* Sources */,
+				56705282ECC1A0B3331C74C9B0357147 /* Frameworks */,
+				876769D12D16555961D01578BF874246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABCDC1BDC800E96F04311BB498B7D179 /* PBXTargetDependency */,
+			);
+			name = "Pods-RyanairApp-RyanairAppUITests";
+			productName = Pods_RyanairApp_RyanairAppUITests;
+			productReference = 1FDFE0541D81FF02C12EC3079EA2F0C5 /* Pods-RyanairApp-RyanairAppUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		DB3312E03A9BEF37C4CE7A52CCE0BD38 /* Pods-RyanairAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 110CEA0C2763D4969947A5D7B7E36403 /* Build configuration list for PBXNativeTarget "Pods-RyanairAppTests" */;
+			buildPhases = (
+				4EA43BEC3FB34B00C17A414A4FA59237 /* Headers */,
+				36D6C924441AC67BD4DCD8C97D752B86 /* Sources */,
+				A89F8DC15B477AC4B2E459B7502D65BB /* Frameworks */,
+				FC25B43353761AEF15576E49212C2277 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB9EA413CC817FEA6DB924688D9110AC /* PBXTargetDependency */,
+			);
+			name = "Pods-RyanairAppTests";
+			productName = Pods_RyanairAppTests;
+			productReference = 80A99397D4D433FB0B65CC761B52B279 /* Pods-RyanairAppTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		DF73B2BF1481CBD6BC1DD8F64CF1EDF2 /* Pods-RyanairApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C8D8F8D9171EA672C59216C5C377DC3 /* Build configuration list for PBXNativeTarget "Pods-RyanairApp" */;
+			buildPhases = (
+				5B3B44718D60544CCF37AEE5FD6C9F25 /* Headers */,
+				915CD87466AA21F66F5A6B0F59F317E8 /* Sources */,
+				9BDA2ED42DCBEA021897542045B59C77 /* Frameworks */,
+				56BC5881920D5DBC3B84B02478E1185E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9C0470EFF0340057722491180FC4157 /* PBXTargetDependency */,
+			);
+			name = "Pods-RyanairApp";
+			productName = Pods_RyanairApp;
+			productReference = 52F56CCF7BED825E9E57C7D45F46A40C /* Pods-RyanairApp */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 99DB5843575FBC0658E84D0037118655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF73B2BF1481CBD6BC1DD8F64CF1EDF2 /* Pods-RyanairApp */,
+				6D77F6DABA38D0B5FB5E0F61312E59E2 /* Pods-RyanairApp-RyanairAppUITests */,
+				DB3312E03A9BEF37C4CE7A52CCE0BD38 /* Pods-RyanairAppTests */,
+				1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56BC5881920D5DBC3B84B02478E1185E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		876769D12D16555961D01578BF874246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A4CCC3CC21F770E272C54B18DDDE6DA3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				943B0A1B436BAF4D419574466EF70FB3 /* SVProgressHUD.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC25B43353761AEF15576E49212C2277 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		108B36464ADE4902E2E2C83461767402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BCC3B2F8AE7F59556925DEC603C634 /* SVIndefiniteAnimatedView.m in Sources */,
+				1F4A13FD6675FCFCD9C19DF350348899 /* SVProgressAnimatedView.m in Sources */,
+				89DF2D9C5EFB02A72EC0CE2138B77F35 /* SVProgressHUD.m in Sources */,
+				FFD43D91BF1FA4ADF714D56E7A10B2A8 /* SVProgressHUD-dummy.m in Sources */,
+				1D325CFE11FE13A075C835E922BE1017 /* SVRadialGradientLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36D6C924441AC67BD4DCD8C97D752B86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F403ECD1B94FCCE04B6E92B94B570917 /* Pods-RyanairAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		793CACCFF8F8A90855013ABC1D8F5935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F44F56E028AB7788F105B3907A000715 /* Pods-RyanairApp-RyanairAppUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		915CD87466AA21F66F5A6B0F59F317E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE42085E903411E64B7D20BDDBCA9AD /* Pods-RyanairApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB9EA413CC817FEA6DB924688D9110AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RyanairApp";
+			target = DF73B2BF1481CBD6BC1DD8F64CF1EDF2 /* Pods-RyanairApp */;
+			targetProxy = B19376D9BFCB06CF0027B41C27CE2F75 /* PBXContainerItemProxy */;
+		};
+		ABCDC1BDC800E96F04311BB498B7D179 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = 7F741296C03F06D5953C3D58C5465C90 /* PBXContainerItemProxy */;
+		};
+		E9C0470EFF0340057722491180FC4157 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVProgressHUD;
+			target = 1C8D67D8B72D6BA42CCEDB648537A340 /* SVProgressHUD */;
+			targetProxy = F0AB3DACE17C14003B0BB9E4BEDF68CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3A9EA29ED6921878E3F25F2AEACA9FB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31C25B5E4BEFEF8776C7DE1C3C1EA7B2 /* SVProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		402FF87AB2FA7F5EE167716CAE1254DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B0CAEBDA9959BE834C9647EF4369894 /* Pods-RyanairApp-RyanairAppUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RyanairApp-RyanairAppUITests/Pods-RyanairApp-RyanairAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RyanairApp-RyanairAppUITests/Pods-RyanairApp-RyanairAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4214E6946993DF02ED98D89047C64016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		5F7B4D1479715C837C56F0ED3715F1AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5900010E2313DDB91EA3CD23F11B77D5 /* Pods-RyanairApp-RyanairAppUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RyanairApp-RyanairAppUITests/Pods-RyanairApp-RyanairAppUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RyanairApp-RyanairAppUITests/Pods-RyanairApp-RyanairAppUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9A6F927E5F1807F0A9094ADC61854716 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDC14B1843451473B08841EADCBFE118 /* Pods-RyanairApp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RyanairApp/Pods-RyanairApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RyanairApp/Pods-RyanairApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B758F646206CD52075FAFE20BF7661C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E0A430F2696A7CF8EED9F70B0191F11 /* Pods-RyanairAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RyanairAppTests/Pods-RyanairAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RyanairAppTests/Pods-RyanairAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B95DC9C9022E80EF46A6A3DB9F26A269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6E4492123ED7DE2CBC99150EEC7AAB3 /* Pods-RyanairAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RyanairAppTests/Pods-RyanairAppTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RyanairAppTests/Pods-RyanairAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CD85FD90473CFBE797E4264E7BBC70AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D3E3D0338B84DB4A8B9DD23B515110BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B035C99F23DE73926CEE0421727FFF3 /* Pods-RyanairApp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RyanairApp/Pods-RyanairApp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RyanairApp/Pods-RyanairApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7C4E72588BA38523B53DEC049091E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C800E52EA872DCB5D5AD9142B95AB768 /* SVProgressHUD.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SVProgressHUD/SVProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SVProgressHUD/SVProgressHUD.modulemap";
+				PRODUCT_MODULE_NAME = SVProgressHUD;
+				PRODUCT_NAME = SVProgressHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		110CEA0C2763D4969947A5D7B7E36403 /* Build configuration list for PBXNativeTarget "Pods-RyanairAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B95DC9C9022E80EF46A6A3DB9F26A269 /* Debug */,
+				B758F646206CD52075FAFE20BF7661C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F6157096E36D1CA572CEB346FBACD8B /* Build configuration list for PBXNativeTarget "Pods-RyanairApp-RyanairAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F7B4D1479715C837C56F0ED3715F1AE /* Debug */,
+				402FF87AB2FA7F5EE167716CAE1254DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C8D8F8D9171EA672C59216C5C377DC3 /* Build configuration list for PBXNativeTarget "Pods-RyanairApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D0338B84DB4A8B9DD23B515110BD /* Debug */,
+				9A6F927E5F1807F0A9094ADC61854716 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4214E6946993DF02ED98D89047C64016 /* Debug */,
+				CD85FD90473CFBE797E4264E7BBC70AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		807FEF9D9629A72728B6B83F5CA12C85 /* Build configuration list for PBXNativeTarget "SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A9EA29ED6921878E3F25F2AEACA9FB3 /* Debug */,
+				E7C4E72588BA38523B53DEC049091E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
